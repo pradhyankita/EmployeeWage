@@ -1,6 +1,7 @@
 package com.BridgeLabz.EmployeeWage;
 
 public class EmployeeWage {
+
     static int EMPLOYEE_PRESENT=1;
     static final int WAGE_PER_HOUR=20;
     static final int FULL_DAY_HOUR=16;
@@ -20,6 +21,17 @@ public class EmployeeWage {
         }
         System.out.println("Daily Wage is "+dailyWage);
         System.out.println("UC2 done");
+
+    public static void main(String args[]){
+        System.out.println("Welcome to Employee Wge Program");
+        int employeePresent= (int)Math.floor(Math.random()*10)%2;
+        System.out.println(employeePresent);
+        if(employeePresent==1)
+            System.out.println("Employee is present");
+        else
+            System.out.println("Employee is absent");
+        System.out.println("UC1 done");
+
     }
 
 
