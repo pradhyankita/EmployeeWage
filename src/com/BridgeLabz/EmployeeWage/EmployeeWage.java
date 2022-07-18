@@ -1,3 +1,4 @@
+package com.BridgeLabz.EmployeeWage;
 class CompanyWage
 {
     public String company;
@@ -75,9 +76,9 @@ class EmpWageArray
         System.out.println("Total Wage For " +company+ " Company Employee Is "+totalEmpWage );
     }
 }
-public class EmpWageComputation
+class EmpWageComputation
 {
-    public static void main(String args [])
+    public static void main(String[] args)
     {
         EmpWageArray emp = new EmpWageArray();
         //EmpWageArry obj = new EmpWageArry();
